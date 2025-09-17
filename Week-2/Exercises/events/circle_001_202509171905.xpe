@@ -1,0 +1,27 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpe-file, coding: cp1252
+#date: Wed Sep 17 2025 19:05:18
+#sha1: cc240e
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-TK5UEQ1E', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+12890,design,log,
+#design: #exp: Circle
+#design: block_cnt,block_id,trial_cnt,trial_id
+12890,design,logged,
+12890,Experiment,started
+12891,stderr,received,'Traceback (most recent call last):'
+12891,stderr,received,'  File "C:\\Users\\Laura\\Documents\\CogSUP\\Programming\\assignments\\Week-2\\Exercises\\circle.py", line 19, in <module>'
+12892,stderr,received,'    square.present(clear=True, update=False)'
+12892,stderr,received,'  File "C:\\Users\\Laura\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1171, in present'
+12893,stderr,received,'    self.preload(inhibit_ogl_compress=True)'
+12894,stderr,received,'  File "C:\\Users\\Laura\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1059, in preload'
+12895,stderr,received,'    self._get_surface(),'
+12895,stderr,received,'    ^^^^^^^^^^^^^^^^^^^'
+12896,stderr,received,'  File "C:\\Users\\Laura\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 490, in _get_surface'
+12896,stderr,received,'    tmp = self._create_surface()'
+12897,stderr,received,'          ^^^^^^^^^^^^^^^^^^^^^^'
+12897,stderr,received,'  File "C:\\Users\\Laura\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\stimuli\\_rectangle.py", line 237, in _create_surface'
+12898,stderr,received,'    surface = pygame.surface.Surface('
+12898,stderr,received,'              ^^^^^^^^^^^^^^^^^^^^^^^'
+12898,stderr,received,'ValueError: size needs to be (number width, number height)'
