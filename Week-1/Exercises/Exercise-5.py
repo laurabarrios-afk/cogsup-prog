@@ -22,10 +22,11 @@ The function should take one argument called 'rows' and print a triangle out of 
 sprint("Exercise 5.1")
 
 def print_triangle_o(rows):
-    """
-    Print a centered triangle made of the letter 'o'.
-    """
-    pass
+    for row in range(1,rows+1):
+        print(' '*(rows-row)+'o'*(2*row-1))
+        row+=1
+
+print_triangle_o(5)
 
 sprint("---")
 
@@ -42,7 +43,13 @@ sprint("Exercise 5.2")
 
 def prod_list_easy(lst):
     """Returns the product of the elements in a number list iteratively."""
-    pass
+    prod=1
+    for i in lst:
+        prod*=i
+    print (prod)
+tryList=[1,2,3]
+prod_list_easy(tryList)
+
 
 sprint("---")
 
@@ -62,8 +69,12 @@ Hint: Can you think of a recursive way to do it?
 sprint("Exercise 5.3")
 
 def prod_list_rec(lst):
-    """Returns the product of the elements in a number list recursively."""
-    pass
+    if not lst:
+        return 1
+    return lst[0] * prod_list_rec(lst[1:])
+    
+resultado=prod_list_rec(tryList)
+print(resultado)
 
 sprint("---")
 
@@ -88,7 +99,15 @@ def prod_list_rec_full(lst):
     If the list contains non-numeric elements, a message is printed out
     and the function returns nothing.
     """
-    pass
+    if not all(isinstance(x, (int, float)) for x in lst):
+        print("Error: The list must only contain numbers")
+        return None
+    if not lst:
+        return 1
+    return lst[0] * prod_list_rec(lst[1:])
+    
+resultado=prod_list_rec_full(tryList)
+print(resultado)
     
 sprint("---")
 
@@ -104,15 +123,15 @@ expected outputs. If you solved the exercises correctly, the script will tell yo
 """
 
 ### Run test cases
-# if __name__ == "__main__":
-#     from testcases import (
-#         run_tests_ex51,
-#         run_tests_ex52,
-#         run_tests_ex53,
-#         run_tests_ex54,
-#     )
+if __name__ == "__main__":
+    from testcases import (
+        run_tests_ex51,
+        run_tests_ex52,
+        run_tests_ex53,
+        run_tests_ex54,
+    )
 
-#     run_tests_ex51()
-#     run_tests_ex52()
-#     run_tests_ex53()
-#     run_tests_ex54()
+    run_tests_ex51()
+    run_tests_ex52()
+    run_tests_ex53()
+    run_tests_ex54()

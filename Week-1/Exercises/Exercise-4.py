@@ -18,7 +18,7 @@ dct = {'a': 3, 'b': 7, 'c': -2, 'd': 10, 'e': 5}
 
 print("Exercise 4.1")
 
-pass
+print(sum(dct.values()))
 
 print("---")
 
@@ -32,7 +32,7 @@ Print the key that has the largest value in dct.
 
 print("Exercise 4.2")
 
-pass
+print(max(dct.keys()))
 
 print("---")
 
@@ -46,7 +46,8 @@ Create a new dictionary with the squares of all the values in dct.
 
 print("Exercise 4.3")
 
-pass
+squared_dct = {key: value**2 for key, value in dct.items()}
+print(squared_dct)
 
 print("---")
 
@@ -60,7 +61,9 @@ Print only the keys in dct whose values are even numbers.
 
 print("Exercise 4.4")
 
-pass
+for key, value in dct.items():
+    if value%2==0:
+      print(key+" ", end="") 
 
 print("---")
 
@@ -74,7 +77,11 @@ Create a new dictionary that swaps the keys and values in dct.
 
 print("Exercise 4.5")
 
-pass
+newDct={}
+for key,value in dct.items():
+  newDct[value]=key
+
+print(newDct)
 
 print("---")
 
@@ -91,7 +98,15 @@ s = 'ccctcctttttcc'
 
 print("Exercise 4.6")
 
-pass
+counter = {}
+
+for char in s:
+  if char in counter:
+    counter[char] += 1
+  else:
+    counter[char] = 1
+
+print(counter)
 
 print("---")
 
@@ -110,7 +125,10 @@ responses = 'jjjpjjpppppjj'
 
 print("Exercise 4.7")
 
-pass
+for char in responses:
+  for key,value in responses_mapping.items():
+    if char==key:
+      print(value+' ', end='')
 
 print("---")
 
@@ -125,7 +143,11 @@ Merge the following two dictionaries into one:
 
 print("Exercise 4.8")
 
-pass
+dct1={'a': 1, 'b': 2}
+dct2={'c': 3, 'd': 4}
+dctRes=dct1 | dct2
+
+print(dctRes)
 
 print("---")
 
@@ -140,8 +162,13 @@ create a new one whose keys are sorted alphabetically.
 
 print("Exercise 4.9")
 
-pass
+dctAnim={'zebra': 10, 'dolphin': 25, 'alligator': 3, 'monkey': 5, 'pig': 9}
+dctKeys=list(dctAnim.keys())
+dctKeys.sort()
 
+AnimSort={i:dctAnim[i] for i in dctKeys}
+print(AnimSort)
+  
 print("---")
 
 """
@@ -155,6 +182,9 @@ create a new one whose values appear in increasing order.
 
 print("Exercise 4.10")
 
-pass
+dctKeys.sort(key=lambda x: dctAnim[x])
+
+AnimSort = {i: dctAnim[i] for i in dctKeys}
+print(AnimSort)
 
 print("---")
