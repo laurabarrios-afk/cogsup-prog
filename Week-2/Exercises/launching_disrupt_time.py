@@ -16,6 +16,7 @@ for x in range(-1400, -50, 5):   # Changes position from left to right in steps 
     squareGreen.present(clear=False, update=False)
     squareRed.present(clear=False, update=True) #Updates when both squares are in the buffer
 
+exp.clock.wait(50) #Possible threshold for the impression of causality
 
 #Green square movement, from the center to the right of the screen
 for x in range(0, 1400, 5): 

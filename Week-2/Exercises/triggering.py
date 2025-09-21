@@ -18,7 +18,7 @@ for x in range(-1400, -50, 5):   # Changes position from left to right in steps 
 
 
 #Green square movement, from the center to the right of the screen
-for x in range(0, 1400, 5): 
+for x in range(0, 1400, 15): #Steps of 15 to make the green square go 3x faster
     squareGreen.position = (x, 0)
     exp.screen.clear()
     squareRed.present(clear=False, update=False)

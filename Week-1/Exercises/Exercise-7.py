@@ -12,10 +12,10 @@ from random import randint
 print("Think of a number between 1 and 100. I will try to guess it \n Press s to start") 
 start=input()
 if start=="s":
-    highLimit = 100
+    highLimit = 100 #Stablishes limits for the random number generator
     lowLimit = 1
 
-    def greater():
+    def greater(): #Provides a way of knowing if the number is higher or lower
         print("If the number is greater press g, if it's lower press l")
         great=input()
         if great=="g":
@@ -23,17 +23,17 @@ if start=="s":
         else:
             return False
     
-    correct = False
+    correct = False #Sets incorrect as default until the user indicates that the answer is right
 
     while not correct:
-        guess = randint(lowLimit, highLimit)
+        guess = randint(lowLimit, highLimit) 
         print("Is your number " + str(guess) + "? (y = correct / n = incorrect) ")
         number=input()
         if number == 'y':
             print("I guessed it!")
             correct = True
-        elif greater():
+        elif greater(): #If the number is not correct and is greater, the random generator range will start with guess+1
             lowLimit=guess+1
-        else:
-            highLimit=guess-1
+        else: #If the number is lower, the random generator range will finish with guess-1
+            highLimit=guess-1 
         
