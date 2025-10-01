@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpe-file, coding: cp1252
+#date: Wed Oct 01 2025 11:36:56
+#sha1: 78af4c
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-TK5UEQ1E', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+6143,stderr,received,'Traceback (most recent call last):'
+6144,stderr,received,'  File "c:\\Users\\Laura\\Documents\\CogSUP\\Programming\\Assignments\\Week-3\\Exercises\\hermann-grid.py", line 32, in <module>'
+6146,stderr,received,'    grid(200,30,7,10,misc.constants.C_BLACK,misc.constants.C_GREY)'
+6147,stderr,received,'  File "c:\\Users\\Laura\\Documents\\CogSUP\\Programming\\Assignments\\Week-3\\Exercises\\hermann-grid.py", line 18, in grid'
+6147,stderr,received,'    exp.screen.clear(background_colour=background)'
+6148,stderr,received,"TypeError: Screen.clear() got an unexpected keyword argument 'background_colour'"

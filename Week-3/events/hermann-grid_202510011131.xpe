@@ -1,0 +1,14 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpe-file, coding: cp1252
+#date: Wed Oct 01 2025 11:31:34
+#sha1: 21247b
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-TK5UEQ1E', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+6119,stderr,received,'Traceback (most recent call last):'
+6119,stderr,received,'  File "c:\\Users\\Laura\\Documents\\CogSUP\\Programming\\Assignments\\Week-3\\Exercises\\hermann-grid.py", line 32, in <module>'
+6120,stderr,received,'    grid(200,30,7,10,misc.constants.C_BLACK,misc.constants.C_GREY)'
+6121,stderr,received,'  File "c:\\Users\\Laura\\Documents\\CogSUP\\Programming\\Assignments\\Week-3\\Exercises\\hermann-grid.py", line 18, in grid'
+6121,stderr,received,'    exp.background_colour=background'
+6122,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^'
+6122,stderr,received,"AttributeError: property 'background_colour' of 'Experiment' object has no setter"

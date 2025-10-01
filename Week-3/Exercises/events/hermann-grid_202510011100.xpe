@@ -1,0 +1,43 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpe-file, coding: cp1252
+#date: Wed Oct 01 2025 11:00:53
+#sha1: 912667
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-TK5UEQ1E', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+6631,Stimulus,presented,0
+6633,Stimulus,presented,1
+6636,Stimulus,presented,2
+6640,Stimulus,presented,3
+6644,Stimulus,presented,4
+6648,Stimulus,presented,5
+6651,Stimulus,presented,6
+6654,Stimulus,presented,7
+6657,Stimulus,presented,8
+6660,Stimulus,presented,9
+6662,Stimulus,presented,10
+6665,Stimulus,presented,11
+6667,Stimulus,presented,12
+6669,Stimulus,presented,13
+6671,Stimulus,presented,14
+6673,Stimulus,presented,15
+6674,Stimulus,presented,16
+6676,Stimulus,presented,17
+6678,Stimulus,presented,18
+6680,Stimulus,presented,19
+6682,Stimulus,presented,20
+6683,Stimulus,presented,21
+6685,Stimulus,presented,22
+6688,Stimulus,presented,23
+6690,Stimulus,presented,24
+6692,Stimulus,presented,25
+6694,Stimulus,presented,26
+6695,Stimulus,presented,27
+6696,Stimulus,presented,28
+6697,Stimulus,presented,29
+6698,Stimulus,presented,30
+6700,Stimulus,presented,31
+6701,Stimulus,presented,32
+6702,Stimulus,presented,33
+6703,Stimulus,presented,34
+6705,Stimulus,presented,35

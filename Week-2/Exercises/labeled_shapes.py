@@ -9,7 +9,6 @@ exp = design.Experiment(name = "Square")
 control.initialize(exp)
 
 # Create a fixation cross (color, size, and position will take on default values)
-fixation = stimuli.FixCross() # At this stage the fixation cross is not yet rendered
 purpleTriangle = stimuli.Shape(vertex_list=geometry.vertices_regular_polygon(3, 50), colour=(128,0,255), position=(-100,0)) 
 yellowHex= stimuli.Shape(vertex_list=geometry.vertices_regular_polygon(6, 25), colour=(225,225,0), position=(100,0)) 
 lineTri=stimuli.Line((-100,int(43.3/2)),(-100,int(43.3/2)+50),3)
