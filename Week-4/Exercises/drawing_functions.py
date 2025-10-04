@@ -5,18 +5,19 @@ def load(stims):
     for stim in stims:
         stim.preload()
 
-
 def timed_draw(stims):
-    for stim in stims:
-        t0=exp.clock.time 
-        stim.present()
-        t1=exp.clock.time-t0
+    t0 = exp.clock.time #Takes the time before drawing the stimuli
+    for stim in stims[:-1]:
+        stim.present(clear=False)
+    stims[-1].present()
+    t1=exp.clock.time
+    delay=t1-t0
+    return delay
 
-    return t1
-
-def present_for(stims, t=1000):
-    timed_draw(stims)
-    exp.clock.wait(1000-t1)
+def present_for(stims, t):
+    delay=timed_draw(stims)
+    if t>delay:
+        exp.clock.wait(t-delay)
   
 
 
