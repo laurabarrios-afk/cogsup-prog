@@ -7,9 +7,8 @@ def load(stims):
 
 def timed_draw(stims):
     t0 = exp.clock.time #Takes the time before drawing the stimuli
-    for stim in stims[:-1]:
-        stim.present(clear=False)
-    stims[-1].present()
+    for i, stim in enumerate(stims):
+        stim.present(clear=(i==0), update=(i==len(stims)-1))
     t1=exp.clock.time
     delay=t1-t0
     return delay
