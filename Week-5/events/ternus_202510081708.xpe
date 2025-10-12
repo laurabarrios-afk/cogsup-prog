@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpe-file, coding: cp1252
+#date: Wed Oct 08 2025 17:08:26
+#sha1: 32ecd0
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-TK5UEQ1E', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+578,stderr,received,'Traceback (most recent call last):'
+578,stderr,received,'  File "C:\\Users\\Laura\\Documents\\CogSUP\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 3, in <module>'
+579,stderr,received,'    from drawing_functions import *'
+579,stderr,received,'  File "C:\\Users\\Laura\\Documents\\CogSUP\\Programming\\Assignments\\Week-4\\Exercises\\drawing_functions.py", line 44, in <module>'
+580,stderr,received,'    present_for(stims, 500)'
+580,stderr,received,"TypeError: present_for() missing 1 required positional argument: 't'"

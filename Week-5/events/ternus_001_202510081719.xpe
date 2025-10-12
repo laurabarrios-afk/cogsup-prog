@@ -1,0 +1,16 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpe-file, coding: cp1252
+#date: Wed Oct 08 2025 17:19:23
+#sha1: 8882f9
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-TK5UEQ1E', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11767,design,log,
+#design: #exp: ternus
+#design: block_cnt,block_id,trial_cnt,trial_id
+11768,design,logged,
+11768,Experiment,started
+11782,stderr,received,'Traceback (most recent call last):'
+11782,stderr,received,'  File "C:\\Users\\Laura\\Documents\\CogSUP\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 45, in <module>'
+11783,stderr,received,'    run_trial(**trial_params)'
+11785,stderr,received,"TypeError: run_trial() missing 1 required positional argument: 'use_tags'"

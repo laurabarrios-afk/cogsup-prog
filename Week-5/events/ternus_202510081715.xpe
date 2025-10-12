@@ -1,0 +1,10 @@
+10409,Stimulus,presented,21
+95471,stdout,received,'Traceback (most recent call last):'
+95471,stdout,received,'  File "C:\\Users\\Laura\\Documents\\CogSUP\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 7, in <module>'
+95472,stdout,received,'    control.start(subject_id=1)'
+95472,stdout,received,'  File "C:\\Users\\Laura\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\control\\_experiment_control.py", line 209, in start'
+95506,stdout,received,'    experiment.keyboard.wait()'
+95507,stdout,received,'  File "C:\\Users\\Laura\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\expyriment\\io\\_keyboard.py", line 378, in wait'
+95508,stdout,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+95508,stdout,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+95508,stdout,received,'KeyboardInterrupt'
