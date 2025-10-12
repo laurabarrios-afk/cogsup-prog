@@ -1,0 +1,64 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpe-file, coding: cp1252
+#date: Wed Oct 08 2025 19:50:04
+#sha1: c2abc0
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-TK5UEQ1E', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+4398,Keyboard,received,32,wait
+5445,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+5445,design,logged,
+5445,Experiment,started
+5462,Stimulus,presented,0
+5467,Stimulus,presented,1
+6861,Keyboard,received,1073741905,wait
+7215,Keyboard,received,1073741905,wait
+7224,Stimulus,presented,0
+7226,Stimulus,presented,2
+7581,Keyboard,received,1073741904,wait
+7868,Keyboard,received,1073741904,wait
+7879,Stimulus,presented,0
+7880,Stimulus,presented,3
+8221,Keyboard,received,1073741903,wait
+8507,Keyboard,received,1073741903,wait
+8515,Stimulus,presented,0
+8516,Stimulus,presented,4
+8746,Keyboard,received,1073741903,wait
+9016,Keyboard,received,1073741906,wait
+9025,Stimulus,presented,0
+9027,Stimulus,presented,5
+9339,Keyboard,received,1073741904,wait
+9645,Keyboard,received,1073741904,wait
+9656,Stimulus,presented,0
+9658,Stimulus,presented,6
+9900,Keyboard,received,1073741904,wait
+10220,Keyboard,received,1073741904,wait
+10227,Stimulus,presented,0
+10229,Stimulus,presented,7
+10976,Keyboard,received,50,wait
+11180,Keyboard,received,50,wait
+11218,Stimulus,presented,0
+11220,Stimulus,presented,9
+11375,Keyboard,received,50,wait
+11638,Keyboard,received,50,wait
+11664,Stimulus,presented,0
+11665,Stimulus,presented,11
+11777,Keyboard,received,50,wait
+12852,Keyboard,received,50,wait
+12869,Stimulus,presented,0
+12871,Stimulus,presented,13
+13075,Keyboard,received,50,wait
+13359,Keyboard,received,50,wait
+13377,Stimulus,presented,0
+13378,Stimulus,presented,15
+14000,Keyboard,received,50,wait
+14318,Keyboard,received,50,wait
+14340,Stimulus,presented,0
+14342,Stimulus,presented,17
+14542,Keyboard,received,50,wait
+15952,Experiment,paused
+15957,Stimulus,presented,18
+17123,Keyboard,received,y,wait_char
+17123,Experiment,ended

@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpd-file, coding: cp1252
+#date: Sun Oct 12 2025 13:20:07
+#--EXPERIMENT INFO
+#e mainfile: blindspot.py
+#e sha1: d91539
+#e modules: 
+#e Experiment: Blindspot
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,Eye,Final radius,Final coordinates
+1,right,45,"[-280, 0]"

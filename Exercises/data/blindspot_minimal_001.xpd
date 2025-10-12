@@ -1,0 +1,22 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpd-file, coding: cp1252
+#date: Sun Oct 12 2025 13:27:09
+#--EXPERIMENT INFO
+#e mainfile: blindspot_minimal.py
+#e sha1: 862966
+#e modules: 
+#e Experiment: Blindspot
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,Eye,Radius,Coordinates
+1,right,75,"[-20, 0]"
+1,right,75,"[-40, 0]"
+1,right,75,"[-60, 0]"
+1,right,75,"[-80, 0]"
+1,right,75,"[-100, 0]"
+1,right,75,"[-120, 0]"
+1,right,65,"[-120, 0]"
+1,right,55,"[-120, 0]"
+1,right,65,"[-120, 0]"
+1,right,75,"[-120, 0]"
+1,right,75,"[-120, 0]"

@@ -1,0 +1,87 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpe-file, coding: cp1252
+#date: Wed Oct 08 2025 19:50:36
+#sha1: c2abc0
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-TK5UEQ1E', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1907,Keyboard,received,32,wait
+2547,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2547,design,logged,
+2547,Experiment,started
+2563,Stimulus,presented,0
+2564,Stimulus,presented,1
+3557,Keyboard,received,1073741904,wait
+3894,Keyboard,received,1073741904,wait
+3903,Stimulus,presented,0
+3905,Stimulus,presented,2
+4254,Keyboard,received,1073741903,wait
+4567,Keyboard,received,1073741903,wait
+4577,Stimulus,presented,0
+4578,Stimulus,presented,3
+4819,Keyboard,received,1073741903,wait
+5219,Keyboard,received,1073741903,wait
+5234,Stimulus,presented,0
+5237,Stimulus,presented,4
+5688,Keyboard,received,1073741905,wait
+5898,Keyboard,received,1073741905,wait
+5912,Stimulus,presented,0
+5915,Stimulus,presented,5
+6134,Keyboard,received,1073741906,wait
+6426,Keyboard,received,1073741904,wait
+6434,Stimulus,presented,0
+6435,Stimulus,presented,6
+6620,Keyboard,received,1073741904,wait
+6787,Keyboard,received,1073741904,wait
+6796,Stimulus,presented,0
+6798,Stimulus,presented,7
+6963,Keyboard,received,1073741904,wait
+7150,Keyboard,received,1073741904,wait
+7161,Stimulus,presented,0
+7163,Stimulus,presented,8
+7372,Keyboard,received,1073741904,wait
+7557,Keyboard,received,1073741904,wait
+7565,Stimulus,presented,0
+7567,Stimulus,presented,9
+7720,Keyboard,received,1073741904,wait
+7887,Keyboard,received,1073741904,wait
+7902,Stimulus,presented,0
+7904,Stimulus,presented,10
+8058,Keyboard,received,1073741904,wait
+8250,Keyboard,received,1073741904,wait
+8259,Stimulus,presented,0
+8260,Stimulus,presented,11
+8438,Keyboard,received,1073741904,wait
+8657,Keyboard,received,1073741904,wait
+8670,Stimulus,presented,0
+8671,Stimulus,presented,12
+8855,Keyboard,received,1073741904,wait
+9055,Keyboard,received,1073741904,wait
+9062,Stimulus,presented,0
+9063,Stimulus,presented,13
+9308,Keyboard,received,1073741904,wait
+9521,Keyboard,received,1073741904,wait
+9529,Stimulus,presented,0
+9531,Stimulus,presented,14
+9727,Keyboard,received,1073741904,wait
+9940,Keyboard,received,1073741904,wait
+9949,Stimulus,presented,0
+9950,Stimulus,presented,15
+10132,Keyboard,received,1073741904,wait
+10327,Keyboard,received,1073741904,wait
+10339,Stimulus,presented,0
+10340,Stimulus,presented,16
+10510,Keyboard,received,1073741904,wait
+10723,Keyboard,received,1073741904,wait
+10741,Stimulus,presented,0
+10743,Stimulus,presented,17
+11601,Keyboard,received,50,wait
+11792,Keyboard,received,50,wait
+11811,Stimulus,presented,0
+11812,Stimulus,presented,19
+14402,Experiment,paused
+14411,Stimulus,presented,20
+15199,Keyboard,received,y,wait_char
+15199,Experiment,ended

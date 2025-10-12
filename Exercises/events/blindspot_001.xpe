@@ -1,0 +1,71 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 13:20:07
+#sha1: d91539
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-TK5UEQ1E', release='10', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2269,design,log,
+#design: #exp: Blindspot
+#design: #dvn: Eye,Final radius,Final coordinates
+#design: block_cnt,block_id,trial_cnt,trial_id
+2269,design,logged,
+2269,Experiment,started
+2286,Stimulus,presented,0
+3080,Keyboard,received,32,wait
+3087,Stimulus,presented,1
+3088,Stimulus,presented,2
+3997,Keyboard,received,1073741904,wait
+4018,Stimulus,presented,1
+4020,Stimulus,presented,2
+4263,Keyboard,received,1073741904,wait
+4283,Stimulus,presented,1
+4284,Stimulus,presented,2
+4457,Keyboard,received,1073741904,wait
+4478,Stimulus,presented,1
+4479,Stimulus,presented,2
+4691,Keyboard,received,1073741904,wait
+4712,Stimulus,presented,1
+4713,Stimulus,presented,2
+5079,Keyboard,received,1073741904,wait
+5099,Stimulus,presented,1
+5100,Stimulus,presented,2
+5268,Keyboard,received,1073741904,wait
+5288,Stimulus,presented,1
+5289,Stimulus,presented,2
+5488,Keyboard,received,1073741904,wait
+5508,Stimulus,presented,1
+5509,Stimulus,presented,2
+5740,Keyboard,received,1073741904,wait
+5760,Stimulus,presented,1
+5762,Stimulus,presented,2
+5982,Keyboard,received,1073741904,wait
+6003,Stimulus,presented,1
+6003,Stimulus,presented,2
+6175,Keyboard,received,1073741904,wait
+6196,Stimulus,presented,1
+6197,Stimulus,presented,2
+6349,Keyboard,received,1073741904,wait
+6369,Stimulus,presented,1
+6370,Stimulus,presented,2
+6535,Keyboard,received,1073741904,wait
+6555,Stimulus,presented,1
+6557,Stimulus,presented,2
+6859,Keyboard,received,1073741904,wait
+6879,Stimulus,presented,1
+6881,Stimulus,presented,2
+7242,Keyboard,received,1073741904,wait
+7263,Stimulus,presented,1
+7264,Stimulus,presented,2
+11369,Keyboard,received,49,wait
+11408,Stimulus,presented,1
+11410,Stimulus,presented,3
+11694,Keyboard,received,49,wait
+11719,Stimulus,presented,1
+11720,Stimulus,presented,4
+12041,Keyboard,received,49,wait
+12079,Stimulus,presented,1
+12080,Stimulus,presented,5
+12881,Keyboard,received,32,wait
+12883,Experiment,ended
+12898,Data,saved

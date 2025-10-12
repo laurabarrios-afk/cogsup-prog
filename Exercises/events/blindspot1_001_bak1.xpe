@@ -1,0 +1,19 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 12:24:58
+#sha1: 7ac703
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-TK5UEQ1E', release='10', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1615,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1615,design,logged,
+1615,Experiment,started
+1639,stderr,received,'Traceback (most recent call last):'
+1640,stderr,received,'  File "c:\\Users\\Laura\\Documents\\CogSUP\\Programming\\Materials\\Week-5\\Exercises\\blindspot1.py", line 59, in <module>'
+1640,stderr,received,'    run_trial()'
+1641,stderr,received,'  File "c:\\Users\\Laura\\Documents\\CogSUP\\Programming\\Materials\\Week-5\\Exercises\\blindspot1.py", line 28, in run_trial'
+1641,stderr,received,'    keys = [K_DOWN, K_UP, K_LEFT, K_RIGHT, K_l, K_2, K_ESCAPE]'
+1642,stderr,received,'                                                     ^^^^^^^^'
+1642,stderr,received,"NameError: name 'K_ESCAPE' is not defined. Did you mean: 'K_SPACE'?"
