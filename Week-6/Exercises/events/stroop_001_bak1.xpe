@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.11.4), .xpe-file, coding: cp1252
+#date: Sun Oct 19 2025 19:06:23
+#sha1: c017eb
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='LAPTOP-TK5UEQ1E', release='10', version='10.0.26200', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2695,design,log,
+#design: #exp: Stroop
+#design: #dvn: block_cnt,trial_cnt,trial_type,word,color,RT,correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+2696,design,logged,
+2696,Experiment,started
+2697,stderr,received,'Traceback (most recent call last):'
+2698,stderr,received,'  File "c:\\Users\\Laura\\Documents\\CogSUP\\Programming\\Assignments\\Week-6\\Exercises\\stroop.py", line 101, in <module>'
+2699,stderr,received,'    trials=[{[{"block_id": b, "trial_id": i, **t} for i, t in enumerate(b_trials, 1)]}]'
+2701,stderr,received,'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+2701,stderr,received,"TypeError: unhashable type: 'list'"
