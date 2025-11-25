@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My experiment</title>
+    <script src="https://unpkg.com/jspsych@8.0.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.0.0"></script>
+    <link href="https://unpkg.com/jspsych@8.0.2/css/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body></body>
+  <script type="text/javascript">
+    const jsPsych = initJsPsych({
+      on_finish: function(){
+        jsPsych.data.get().localSave("csv", "demo_jspsych_results.csv");
+      }
+    });
+    let inst = {
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: `
+      <p>INSTRUCTIONS</p>
+      <p>You will see color words written in different colors.</p>
+      <p>Please respond based on the color of the ink and not on the word itself.</p>
+      <p>Press R if the ink is red, B if its blue and G if its Green.</p>
+      <p>Press any key to start.</p>
+      `
+    };
+
+    let possibleTrials = [ 
+  {word:"RED",   color:"red"},
+  {word:"RED",   color:"blue"},
+  {word:"RED",   color:"green"},
+  {word:"BLUE",  color:"red"},
+  {word:"BLUE",  color:"blue"},
+  {word:"BLUE",  color:"green"},
+  {word:"GREEN", color:"red"},
+  {word:"GREEN", color:"blue"},
+  {word:"GREEN", color:"green"}
+]; 
+
+let randTrials = jsPsych.randomization.repeat(possibleTrials,1);  //It randomizes only one repetition of the list
+
+let fix = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `<p>+</p>`,
+  choices: "NO_KEYS",
+  trial_duration: 500
+};
+
+let blank = {
+  type: jsPsychHtmlKeyboardResponse,
+  stimulus: `<p></p>`,
+  choices: "NO_KEYS",
+  trial_duration: 100
+};
+
+let totalTrials = []; //Will have the complete sequence of the experiment
+
+for (let stim of randTrials) { //For each of the trials
+  let trial = {
+    type: jsPsychHtmlKeyboardResponse,
+    stimulus: `<p style='color:${stim.color}'>${stim.word}.</p>`, //The word is written in the specified color
+    choices: ['r','b','g'],
+    data: {
+      word: stim.word,
+      color: stim.color
+    }
+  };
+
+let nested = {
+  timeline: [fix,trial,blank] //Sequence of a trial 
+};
+
+totalTrials.push(nested);
+}
+
+let timeline = [inst,...totalTrials];
+
+jsPsych.run(timeline);
+  </script>
+</html>
